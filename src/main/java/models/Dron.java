@@ -63,7 +63,7 @@ public class Dron  {
         this.horas = horas;
     }
 
-    public boolean isMant() {
+    public boolean getMant() {
         return mant;
     }
 
@@ -73,8 +73,8 @@ public class Dron  {
     public void setVuelos(List<Vuelo> vuelos){
         this.vuelos = vuelos;
     }
-    public void añadirReserva(Vuelo reserva){
-        this.vuelos.add(reserva);
+    public void addVuelo(Vuelo vuelo){
+        this.vuelos.add(vuelo);
     }
     public static Dron buscarDronPorId(List<Dron> drones, int  dronId) {
         for (Dron dron : drones) {
@@ -84,4 +84,5 @@ public class Dron  {
         }
         return null;
     }
+
 }

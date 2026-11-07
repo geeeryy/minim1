@@ -56,4 +56,10 @@ public class Pilot {
         }
         return null;
     }
+    public void setVuelos(List<Vuelo> vuelos){
+        this.vuelos = vuelos;
+    }
+    public void addVuelo(Vuelo vuelo){
+        this.vuelos.add(vuelo);
+    }
 }

@@ -7,10 +7,10 @@ public class Vuelo {
     int pilotId;
     Date fecha;
     int horas;
-    String pos0;
-    String pos1;
+    int pos0;
+    int pos1;
 
-    public Vuelo(int dronId, Date fecha, int horas, String pos0, String pos1, int pilotId){
+    public Vuelo(int dronId, Date fecha, int horas, int pos0, int pos1, int pilotId){
         this.dronId = dronId;
         this.fecha = fecha;
         this.horas = horas;
@@ -50,19 +50,19 @@ public class Vuelo {
         this.pilotId = pilotId;
     }
 
-    public String getPos0() {
+    public int getPos0() {
         return pos0;
     }
 
-    public void setPos0(String pos0) {
+    public void setPos0(int pos0) {
         this.pos0 = pos0;
     }
 
-    public String getPos1() {
+    public int getPos1() {
         return pos1;
     }
 
-    public void setPos1(String pos1) {
+    public void setPos1(int pos1) {
         this.pos1 = pos1;
     }
 

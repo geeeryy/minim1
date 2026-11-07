@@ -22,4 +22,6 @@ LinkedList para la gestion del almacen de mantenimiento.
 
 Trazas de Log4j integradas (logger.info y logger.error).
 
-Por desarrollar: Parte 2 y 3
+5 test desarrollados
+
+Por desarrollar: Parte 3
